@@ -1,0 +1,49 @@
+{
+  "title": "Discovery Viewer \u2014 Research Demo",
+  "frame_size": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "duration_seconds": 93,
+  "clips": [
+    {
+      "file": "frames/scene_01.png",
+      "start": 0,
+      "duration": 9,
+      "end": 9
+    },
+    {
+      "file": "frames/scene_02.png",
+      "start": 9,
+      "duration": 18,
+      "end": 27
+    },
+    {
+      "file": "frames/scene_03.png",
+      "start": 27,
+      "duration": 17,
+      "end": 44
+    },
+    {
+      "file": "frames/scene_04.png",
+      "start": 44,
+      "duration": 19,
+      "end": 63
+    },
+    {
+      "file": "frames/scene_05.png",
+      "start": 63,
+      "duration": 15,
+      "end": 78
+    },
+    {
+      "file": "frames/scene_06.png",
+      "start": 78,
+      "duration": 15,
+      "end": 93
+    }
+  ],
+  "audio": "audio/narration.wav",
+  "music_bed": "optional, quiet ambient electronic, ducked under narration"
+}

@@ -1,0 +1,19 @@
+DISCOVERY VIEWER — product demo narration
+
+[00:00-00:08 | OPEN]
+Medical AI research is moving fast. But the evidence, data, and models researchers need are still spread across papers, repositories, and institutions.
+
+[00:08-00:21 | MODELS]
+Discovery Viewer brings medical AI models into one searchable research hub. Explore what a model does, what it takes in, what it produces, who built it, and the paper behind it.
+
+[00:21-00:34 | DATASETS]
+Then find datasets by modality, anatomy, and scale. See sample counts and source information at a glance. Data access remains governed by its owner; the goal is to make discovery and the path to a request clearer.
+
+[00:34-00:49 | THE RESEARCH LOOP]
+The bigger opportunity is connecting a model to the data and study that tested it. What was the protocol? Which version was used? Where did it work, and where did it fail?
+
+[00:49-01:03 | VALUE]
+That means less repeated setup, clearer provenance, and credit for the people who contribute models, data, and review.
+
+[01:03-01:15 | CLOSE]
+Today, Discovery Viewer offers public catalogs of medical models and datasets. The public research studies space is still taking shape. The vision is a community where evidence travels farther than any single paper.

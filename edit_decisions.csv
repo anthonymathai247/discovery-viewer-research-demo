@@ -1,0 +1,7 @@
+scene,source,duration_seconds,visual,voiceover
+01,frames/scene_01.png,8,Title reveal with gentle scale-in,Medical AI research is moving fast. But the evidence data and models researchers need are still spread across papers repositories and institutions.
+02,frames/scene_02.png,13,Model catalog card pan left-to-right,Discovery Viewer brings medical AI models into one searchable research hub. Explore what a model does what it takes in what it produces who built it and the paper behind it.
+03,frames/scene_03.png,13,Dataset records pan down list,Then find datasets by modality anatomy and scale. See sample counts and source information at a glance. Data access remains governed by its owner.
+04,frames/scene_04.png,15,Three cards animate in model dataset study,The bigger opportunity is connecting a model to the data and study that tested it. What was the protocol? Which version was used? Where did it work and where did it fail?
+05,frames/scene_05.png,14,Four value statements reveal in sequence,That means less repeated setup clearer provenance and credit for the people who contribute models data and review.
+06,frames/scene_06.png,12,End card hold 3 seconds,Today Discovery Viewer offers public catalogs of medical models and datasets. The public research studies space is still taking shape. The vision is a community where evidence travels farther than any single paper.

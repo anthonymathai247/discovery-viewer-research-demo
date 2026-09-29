@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Discovery Viewer Research Demo</title>
+    <style>
+      :root {
+        --ink: #101828;
+        --muted: #667085;
+        --line: #d0d5dd;
+        --panel: #f8fafc;
+        --accent: #12688a;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--ink);
+        background: #fff;
+        line-height: 1.5;
+      }
+      main { max-width: 1120px; margin: 0 auto; padding: 46px 22px 64px; }
+      h1 { margin: 0 0 12px; font-size: clamp(34px, 5vw, 56px); line-height: 1.02; letter-spacing: -0.02em; }
+      h2 { margin: 34px 0 12px; font-size: 24px; }
+      p { color: var(--muted); font-size: 17px; margin: 0 0 14px; }
+      a { color: var(--accent); font-weight: 700; }
+      .hero { border-bottom: 1px solid var(--line); padding-bottom: 30px; }
+      .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 22px; }
+      .card { border: 1px solid var(--line); background: var(--panel); padding: 18px; }
+      .card strong { display: block; margin-bottom: 8px; color: var(--ink); }
+      video, img { width: 100%; border: 1px solid var(--line); background: #000; }
+      .media-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+      ul { color: var(--muted); padding-left: 20px; }
+      li { margin: 8px 0; }
+      footer { margin-top: 42px; border-top: 1px solid var(--line); padding-top: 18px; color: var(--muted); }
+      @media (max-width: 840px) {
+        .grid, .media-grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <h1>Discovery Viewer Research Demo</h1>
+        <p>A medical AI research-platform demo focused on models, datasets, reviewer workflows, and reusable validation evidence.</p>
+        <p><a href="https://discoveryviewer.com">DiscoveryViewer.com</a> · <a href="https://github.com/anthonymathai247">Anthony Mathai on GitHub</a></p>
+      </section>
+
+      <section class="grid">
+        <div class="card"><strong>Model discovery</strong>Searchable records with model purpose, inputs, outputs, creator, and source paper.</div>
+        <div class="card"><strong>Dataset discovery</strong>Dataset cards organized by modality, anatomy, sample count, and source information.</div>
+        <div class="card"><strong>Validation direction</strong>Study records can connect model, dataset, protocol, result, reviewer, and citation trail.</div>
+      </section>
+
+      <h2>Demo Video</h2>
+      <video controls preload="metadata" src="media/discovery-viewer-research-demo.mp4"></video>
+
+      <h2>Feature Highlights</h2>
+      <div class="media-grid">
+        <img src="media/01-medical-models.gif" alt="Discovery Viewer medical models demo" />
+        <img src="media/02-open-datasets.gif" alt="Discovery Viewer open datasets demo" />
+      </div>
+
+      <h2>Research Positioning</h2>
+      <ul>
+        <li>Keep patient data governed by its owner.</li>
+        <li>Make models, datasets, protocols, and validation outcomes easier to find and cite.</li>
+        <li>Give contributors recognition for reusable research artifacts.</li>
+        <li>Present clinical AI as something that needs evidence, review, and cross-site validation before deployment claims.</li>
+      </ul>
+
+      <footer>
+        Demo based on public pages and synthetic/editorial assets. No private patient data is included.
+      </footer>
+    </main>
+  </body>
+</html>
+
